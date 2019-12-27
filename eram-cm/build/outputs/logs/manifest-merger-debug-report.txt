@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/5d73740839f2c921ad559e8312512de4/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/702af40f36d0d640949b1684cc090528/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9a2d73fbe78b5b0f985323026e16bd78/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/7dc6273beef74c72c3d5d3f1d841ba99/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8cee01aa19a07149904641af788155f7/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ffe1555e4e75dc6cd64a794be0307f68/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/2c1b472f0c2bbb08ea593a31162b7638/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/d8630948ece5e116c0693a9a27f994dd/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/be55397b3681bb0b7dbe7dc235a3ee91/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8236911fb18cab682f007c7c4f310234/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/39c6ca8bba906a281525cadf463f0243/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ba896a2bc412d13c9e623d741cb0ad18/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/f382192c9726a59740c55a69e454879d/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b65d62d84108adee1dd039b05bc05b68/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b796ee71328c48ff9c753cb83e97ae3c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/bf81a033e59fde7b831181730793c80b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/4a76ff273b445c2bbce3f8eacc4d1983/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/506adf0e9fdcaf5a0d832a913b875489/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9715dac4b32ced5583f055e10cadc231/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:1-11:12
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:4:5-10:43
+MERGED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ba896a2bc412d13c9e623d741cb0ad18/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ba896a2bc412d13c9e623d741cb0ad18/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml:10:9-40
+uses-sdk
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/5d73740839f2c921ad559e8312512de4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/5d73740839f2c921ad559e8312512de4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/702af40f36d0d640949b1684cc090528/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/702af40f36d0d640949b1684cc090528/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9a2d73fbe78b5b0f985323026e16bd78/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9a2d73fbe78b5b0f985323026e16bd78/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/7dc6273beef74c72c3d5d3f1d841ba99/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/7dc6273beef74c72c3d5d3f1d841ba99/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8cee01aa19a07149904641af788155f7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8cee01aa19a07149904641af788155f7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ffe1555e4e75dc6cd64a794be0307f68/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ffe1555e4e75dc6cd64a794be0307f68/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/2c1b472f0c2bbb08ea593a31162b7638/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/2c1b472f0c2bbb08ea593a31162b7638/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/d8630948ece5e116c0693a9a27f994dd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/d8630948ece5e116c0693a9a27f994dd/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/be55397b3681bb0b7dbe7dc235a3ee91/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/be55397b3681bb0b7dbe7dc235a3ee91/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8236911fb18cab682f007c7c4f310234/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/8236911fb18cab682f007c7c4f310234/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/0b930d52c1aba4fb146ca382edc40f8d/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/39c6ca8bba906a281525cadf463f0243/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/39c6ca8bba906a281525cadf463f0243/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ba896a2bc412d13c9e623d741cb0ad18/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/ba896a2bc412d13c9e623d741cb0ad18/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/f382192c9726a59740c55a69e454879d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/f382192c9726a59740c55a69e454879d/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b65d62d84108adee1dd039b05bc05b68/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b65d62d84108adee1dd039b05bc05b68/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b796ee71328c48ff9c753cb83e97ae3c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/b796ee71328c48ff9c753cb83e97ae3c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/bf81a033e59fde7b831181730793c80b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/bf81a033e59fde7b831181730793c80b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/4a76ff273b445c2bbce3f8eacc4d1983/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/4a76ff273b445c2bbce3f8eacc4d1983/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/506adf0e9fdcaf5a0d832a913b875489/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/506adf0e9fdcaf5a0d832a913b875489/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9715dac4b32ced5583f055e10cadc231/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hemazouzi/.gradle/caches/transforms-2/files-2.1/9715dac4b32ced5583f055e10cadc231/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		ADDED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
+		INJECTED from /mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
