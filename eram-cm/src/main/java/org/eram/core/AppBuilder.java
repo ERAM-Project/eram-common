@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -32,15 +32,24 @@ import org.eram.core.graph.TaskNoter;
 public class AppBuilder {
 
     /**
-     *  Create an return an application instance.
-     * @return Application instance.
+     * Create an return an application instance.
+     * @param appType Type of the application that implementes the interface
+     * @see Application
+     * @return  An application.
      */
-    public static Application buildApp(){
+    public static Application buildApp(ApplicationType appType){
 
-        PFS pfs = new PFS();
-        TaskNoter noter = new TaskNoter();
+        switch (appType){
+            case eRAM_APPLICATION: // The default implementation of application.
+                PFS pfs = new PFS();
+                TaskNoter noter = new TaskNoter();
 
-        ERAMApplication app = new ERAMApplication(pfs, noter);
-        return app;
+                ERAMApplication app = new ERAMApplication(pfs, noter);
+                return app;
+
+            default:
+                    return null;
+        }
+
     }
 }
