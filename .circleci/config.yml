@@ -1,0 +1,43 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/eram-folder
+    parallelism: 1
+    shell: /bin/bash --login
+    docker:
+      - image: circleci/android:api-25-alpha
+    environment:
+      JVM_OPTS: -Xmx3200m
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-dep-{{ .Branch }}-
+      - save_cache:
+          key:  v1-dep-{{ .Branch }}-{{ epoch }}
+          paths:
+            - vendor/bundle
+            - ~/virtualenvs
+            - ~/.m2
+            - ~/.ivy2
+            - ~/.bundle
+            - ~/.go_workspace
+            - ~/.gradle
+            - ~/.cache/bower
+            # These cache paths were specified in the 1.0 config
+            - ~/.android
+            - ~/android
+      - run:
+          name: chmod permissions
+          command: sudo chmod +x ./gradlew
+      - run: ./gradlew build
+      - run:
+          name: Download Dependencies
+          command: ./gradlew androidDependencies
+      - run:
+          name: Run Tests
+          command: ./gradlew lint test
+      - store_artifacts:
+          path: app/build/reports
+          destination: reports
+      - store_test_results:
+          path: app/build/test-results
