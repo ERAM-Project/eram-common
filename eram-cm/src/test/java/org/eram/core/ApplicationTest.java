@@ -25,6 +25,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @see org.eram.core.app.Application class tests.
  * @version 1.0
@@ -63,7 +66,12 @@ public class ApplicationTest {
         deps[3][0] = t3;deps[3][1] = t4;
 
         app.constructApp(deps, t1, t2, t3, t4);
-        Assert.assertArrayEquals(new Task[] {t1, t2, t3, t4}, app.getTasks().toArray());
+        List<Task> list = new LinkedList<>();
+        list.add(t1);list.add(t2);list.add(t3);list.add(t4);
+
+        for(Task task:app.getTasks()){
+            Assert.assertEquals(task, list.remove(0));
+        }
     }
 
 
