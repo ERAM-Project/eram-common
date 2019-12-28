@@ -47,24 +47,27 @@ public class PFS implements Traversal {
     public Set<Task> traverse(MutableGraph<Task> app) {
 
         this.app = app;
-        Task rootTask = app.nodes().iterator().next();
-        Set<Task> pfs = new LinkedHashSet<>();
-        ArrayList<Task> toVisit = new ArrayList<>();
-        Task node;
-        toVisit.add(rootTask);
+        if(app.nodes().size() > 0) {
+            Task rootTask = app.nodes().iterator().next();
+            Set<Task> pfs = new LinkedHashSet<>();
+            ArrayList<Task> toVisit = new ArrayList<>();
+            Task node;
+            toVisit.add(rootTask);
 
-        while(toVisit.size()!=0){
-            node = toVisit.get(0);
-            if(this.canVisit(node, pfs) ){
-                if (!pfs.contains(node)) {
-                    pfs.add(node);
-                    toVisit.addAll(app.successors(node));
+            while (toVisit.size() != 0) {
+                node = toVisit.get(0);
+                if (this.canVisit(node, pfs)) {
+                    if (!pfs.contains(node)) {
+                        pfs.add(node);
+                        toVisit.addAll(app.successors(node));
+                    }
                 }
+                toVisit.remove(node);
             }
-            toVisit.remove(node);
-        }
 
-        return pfs;
+            return pfs;
+        }
+        return null;
     }
 
     /**

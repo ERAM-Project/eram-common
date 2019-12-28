@@ -16,6 +16,8 @@
 
 package org.eram.core.app;
 
+import android.util.Log;
+
 import com.google.common.graph.GraphBuilder;
 import com.google.common.graph.MutableGraph;
 import org.eram.core.annotation.InputChangement;
@@ -26,6 +28,8 @@ import org.eram.core.graph.Traversal;
 import org.eram.core.graph.Noter;
 import java.util.List;
 import java.util.Set;
+
+import javax.annotation.Nonnull;
 
 /**
  * Represent an application, which is composed of many tasks
@@ -61,15 +65,19 @@ public class ERAMApplication implements Application{
      * @see Application#constructApp(Task[][], Task[])
      * @param dependencies  the dependencies between the tasks of the application.
      * @param tasks Set of the tasks of the application.
+     * @throws NullPointerException Exception when the dependencies parameter is a null object.
      */
     @Override
     public void constructApp(Task[][] dependencies, Task... tasks) {
 
         for(Task t:tasks)
             app.addNode(t);
-        for(int i=0; i<dependencies.length;i++){
-            app.putEdge(dependencies[i][0], dependencies[i][1]);
-        }
+
+        try{
+            for(int i=0; i<dependencies.length;i++){
+                app.putEdge(dependencies[i][0], dependencies[i][1]);
+            }
+        }catch (NullPointerException e){}
     }
 
     /**

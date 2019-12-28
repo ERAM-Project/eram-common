@@ -47,11 +47,23 @@ public class ApplicationTest {
         testTask t2 = new testTask("task-2", new Integer[]{1});
         testTask t3 = new testTask("task-3", new Integer[]{1});
         testTask t4 = new testTask("task-1", new Integer[]{1});
-        Task [][] deps = new Task[4][2];
+        Task [][] deps;
 
         app.constructApp(null);
 
         Assert.assertEquals(null, app.getTasks());
+
+        app.constructApp(null, t1);
+        Assert.assertEquals(1, app.getTasks().size());
+
+        deps = new Task[4][2];
+        deps[0][0] = t1;deps[0][1] = t2;
+        deps[1][0] = t1;deps[1][1] = t3;
+        deps[2][0] = t2;deps[2][1] = t4;
+        deps[3][0] = t3;deps[3][1] = t4;
+
+        app.constructApp(deps, t1, t2, t3, t4);
+        Assert.assertArrayEquals("They are equal",new Task[] {t1, t2, t3, t4}, app.getTasks().toArray());
     }
 
 
