@@ -49,7 +49,7 @@ public class ApplicationTest {
         testTask t1 = new testTask("task-1", new Integer[]{1});
         testTask t2 = new testTask("task-2", new Integer[]{1});
         testTask t3 = new testTask("task-3", new Integer[]{1});
-        testTask t4 = new testTask("task-1", new Integer[]{1});
+        testTask t4 = new testTask("task-4", new Integer[]{1});
         Task [][] deps;
 
         app.constructApp(null);
@@ -67,11 +67,13 @@ public class ApplicationTest {
 
         app.constructApp(deps, t1, t2, t3, t4);
         List<Task> list = new LinkedList<>();
-        list.add(t1);list.add(t2);list.add(t3);list.add(t4);
 
+        list.add(t1);list.add(t2);list.add(t3);list.add(t4);
         for(Task task:app.getTasks()){
+            System.out.println("It is : "+task+" and "+list.get(0)+ " -- "+app.getTasks().size());
             Assert.assertEquals(task, list.remove(0));
         }
+
     }
 
 
