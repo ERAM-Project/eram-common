@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -23,8 +23,6 @@ import org.eram.core.annotation.Remoteable;
 import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Represent a task of the application.

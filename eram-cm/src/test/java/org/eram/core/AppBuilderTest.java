@@ -20,9 +20,6 @@ import org.eram.core.app.Application;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-
 /**
  * @see AppBuilder class.
  * @version 1.0

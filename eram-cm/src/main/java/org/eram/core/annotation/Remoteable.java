@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -16,10 +16,9 @@
 
 package org.eram.core.annotation;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.Retention;
+
 
 /**
  * Annotation to determine the configuration of a <br> task </br>

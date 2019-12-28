@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->/mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="29" />
+9        android:targetSdkVersion="28" />
 9-->/mnt/data/baseFolder/MyPlateforms/eRAM/eram-common/eram-cm/src/main/AndroidManifest.xml
 10
 11    <application

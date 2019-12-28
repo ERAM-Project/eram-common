@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -17,9 +17,7 @@
 package org.eram.core.graph;
 
 import com.google.common.graph.MutableGraph;
-
 import org.eram.core.app.Task;
-
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -18,14 +18,12 @@ package org.eram.core.app;
 
 import com.google.common.graph.GraphBuilder;
 import com.google.common.graph.MutableGraph;
-
 import org.eram.core.annotation.InputChangement;
 import org.eram.core.annotation.Offloadable;
 import org.eram.core.annotation.Remoteable;
-import org.eram.core.graph.Noter;
-import org.eram.core.graph.Traversal;
-
 import java.lang.annotation.Annotation;
+import org.eram.core.graph.Traversal;
+import org.eram.core.graph.Noter;
 import java.util.List;
 import java.util.Set;
 

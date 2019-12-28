@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019 Houssemeddine
+ * Copyright (c) 2019 eRAM-Project Team
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -18,10 +18,7 @@
 package org.eram.core.graph;
 
 import com.google.common.graph.MutableGraph;
-
 import org.eram.core.app.Task;
-import org.eram.core.graph.Traversal;
-
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -34,6 +31,7 @@ import java.util.Set;
 public class PFS implements Traversal {
 
     private MutableGraph<Task> app; /// DAG graph of tasks.
+
     /**
      * Create a new PFS instance.
      */
@@ -88,7 +86,6 @@ public class PFS implements Traversal {
                 break;
             }
         }
-
 
         return isOk;
     }
