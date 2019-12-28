@@ -63,7 +63,7 @@ public class ApplicationTest {
         deps[3][0] = t3;deps[3][1] = t4;
 
         app.constructApp(deps, t1, t2, t3, t4);
-        Assert.assertArrayEquals("They are equal",new Task[] {t1, t2, t3, t4}, app.getTasks().toArray());
+        Assert.assertArrayEquals(new Task[] {t1, t2, t3, t4}, app.getTasks().toArray());
     }
 
 
