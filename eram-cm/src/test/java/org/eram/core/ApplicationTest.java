@@ -71,7 +71,7 @@ public class ApplicationTest {
         list.add(t1);list.add(t2);list.add(t3);list.add(t4);
         for(Task task:app.getTasks()){
             System.out.println("It is : "+task+" and "+list.get(0)+ " -- "+app.getTasks().size());
-            //Assert.assertEquals(task, list.remove(0));
+            Assert.assertEquals(task, list.remove(0));
         }
 
     }
