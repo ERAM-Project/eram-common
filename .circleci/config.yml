@@ -7,7 +7,7 @@ jobs:
       - image: circleci/android:api-28-alpha
     environment:
       JVM_OPTS: -Xmx3200m
-      TEST_REPORTS: /tmp/eram-common-test-results
+      TEST_REPORTS: ~/eram-cm/build/test-results
     steps:
       - checkout
       - restore_cache:
