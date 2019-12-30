@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /eram-folder
+    working_directory: ~/eram-folder
     shell: /bin/bash --login
     docker:
       - image: circleci/android:api-28-alpha
