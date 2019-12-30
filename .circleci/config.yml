@@ -1,14 +1,12 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/eram-folder
-    parallelism: 1
+    working_directory: /eram-folder
     shell: /bin/bash --login
     docker:
       - image: circleci/android:api-28-alpha
     environment:
       JVM_OPTS: -Xmx3200m
-      TEST_REPORTS: /tmp/eram-common-test-results
     steps:
       - checkout
       - restore_cache:
@@ -37,8 +35,17 @@ jobs:
       - run:
           name: Run Tests
           command: ./gradlew lint test
+      - run:
+          name: Creating Dummy Artifacts
+          command: |
+            echo "my artifact file" > /eram-folder/artifact-1;
+            mkdir /eram-folder/artifacts;
+            echo "my artifact files in a dir" > /eram-folder/artifacts/artifact-2;
+
       - store_artifacts:
-          path: app/build/reports
-          destination: reports
+          path: /eram-folder/artifact-1
+          destination: artifact-file
+      - store_artifacts:
+          path: /eram-folder/artifacts
       - store_test_results:
-          path: /tmp/eram-common-test-results
+          path: /eram-folder/eram-common-test-results
