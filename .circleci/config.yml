@@ -39,7 +39,7 @@ jobs:
           name: Creating Dummy Artifacts
           command: |
             echo "my artifact file" > /eram-folder/artifact-1;
-            mkdir -p /eram-folder/artifacts;
+            sudo mkdir -p /eram-folder/artifacts;
             echo "my artifact files in a dir" > /eram-folder/artifacts/artifact-2;
 
       - store_artifacts:
