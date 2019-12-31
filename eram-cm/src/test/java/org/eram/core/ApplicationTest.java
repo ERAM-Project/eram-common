@@ -122,8 +122,7 @@ public class ApplicationTest {
         for(Set<Task> tasks: app.taskNote()){
 
             Set<Task> ts = list.remove(0);
-            Assert.assertEquals(ts.toString(), tasks.toString());
-            //Assert.assertArrayEquals(ts.toArray(), tasks.toArray());
+            Assert.assertArrayEquals(ts.toArray(), tasks.toArray());
         }
     }
 
