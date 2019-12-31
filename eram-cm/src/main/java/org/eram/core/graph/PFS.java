@@ -20,7 +20,10 @@ package org.eram.core.graph;
 import com.google.common.graph.MutableGraph;
 import org.eram.core.app.Task;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -59,7 +62,10 @@ public class PFS implements Traversal {
                 if (this.canVisit(node, pfs)) {
                     if (!pfs.contains(node)) {
                         pfs.add(node);
-                        toVisit.addAll(app.successors(node));
+                        List successors = new LinkedList<>();
+                        successors.addAll(app.successors(node));
+                        Collections.sort(successors);
+                        toVisit.addAll(successors);
                     }
                 }
                 toVisit.remove(node);

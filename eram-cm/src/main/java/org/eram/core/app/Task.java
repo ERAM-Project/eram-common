@@ -31,7 +31,7 @@ import java.util.List;
  **/
 
 @Remoteable(isOffloadable = Offloadable.IS_OFFLOADABLE, isInputChangeable = InputChangement.CHANGE_INPUT)
-public abstract class Task<E, T> implements Serializable {
+public abstract class Task<E, T> implements Serializable, Comparable {
 
     // Serial ID for serializable.
     private static final long serialVersionUID = 123456789L;
@@ -71,6 +71,15 @@ public abstract class Task<E, T> implements Serializable {
      */
     public abstract T run();
 
+
+    @Override
+    public int compareTo(Object o) {
+        if(o instanceof Task) {
+            Task obj = (Task) o;
+            return this.toString().compareTo(obj.TAG);
+        }
+        return -2;
+    }
 
     /**
      * @see #toString()
