@@ -26,6 +26,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -108,14 +109,14 @@ public class ApplicationTest {
         app.constructApp(deps, t1, t2, t3, t4);
         List<Set<Task>> list = new LinkedList<>();
 
-        list.add(new HashSet<Task>());
+        list.add(new LinkedHashSet<Task>());
         list.get(0).add(t1);
 
-        list.add(new HashSet<Task>());
+        list.add(new LinkedHashSet<Task>());
         list.get(1).add(t2);
         list.get(1).add(t3);
 
-        list.add(new HashSet<Task>());
+        list.add(new LinkedHashSet<Task>());
         list.get(2).add(t4);
 
         for(Set<Task> tasks: app.taskNote()){
