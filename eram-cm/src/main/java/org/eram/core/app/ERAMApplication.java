@@ -96,6 +96,9 @@ public class ERAMApplication implements Application{
     @Override
     public List<Set<Task>> taskNote() {
 
+        if (this.traversor.traverse(app) == null)
+            return null;
+
         return this.taskNote.note(app, this.traversor.traverse(app));
     }
 

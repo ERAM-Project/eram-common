@@ -72,6 +72,12 @@ public abstract class Task<E, T> implements Serializable, Comparable {
     public abstract T run();
 
 
+    /**
+     * Compare two instance of Task class.
+     * @param o Other instance to compare with the current one.
+     * @return  0 if the two instance are equal. Otherwise 1, if the current instance is greater,
+     * 0 in the last case.
+     */
     @Override
     public int compareTo(Object o) {
         if(o instanceof Task) {
