@@ -69,10 +69,19 @@ public class ApplicationTest {
         List<Task> list = new LinkedList<>();
 
         list.add(t1);list.add(t2);list.add(t3);list.add(t4);
+        String s1 ="", s2 ="";
+
         for(Task task:app.getTasks()){
             System.out.println("It is : "+task+" and "+list.get(0)+ " -- "+app.getTasks().size());
+
             //Assert.assertEquals(task, list.remove(0));
+            s1+=task.toString()+"+";
+            s2+=list.remove(0)+"+";
         }
+       System.out.println(s1+" ---- "+s2);
+
+       Assert.assertEquals(s1,s2);
+
 
     }
 

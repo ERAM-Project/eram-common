@@ -7,25 +7,15 @@ jobs:
       - image: circleci/android:api-28-alpha
     environment:
       JVM_OPTS: -Xmx3200m
-      TEST_REPORTS: /tmp/eram-common-test-results
+      TEST_REPORTS: eram-cm/build/test-results
     steps:
       - checkout
       - restore_cache:
-          key: v1-dep-{{ .Branch }}-
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "eram-cm/build.gradle" }}
       - save_cache:
-          key:  v1-dep-{{ .Branch }}-{{ epoch }}
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "eram-cm/build.gradle" }}
           paths:
-            - vendor/bundle
-            - ~/virtualenvs
-            - ~/.m2
-            - ~/.ivy2
-            - ~/.bundle
-            - ~/.go_workspace
             - ~/.gradle
-            - ~/.cache/bower
-            # These cache paths were specified in the 1.0 config
-            - ~/.android
-            - ~/android
       - run:
           name: chmod permissions
           command: sudo chmod +x ./gradlew
@@ -36,18 +26,8 @@ jobs:
       - run:
           name: Run Tests
           command: ./gradlew lint test
-      - run:
-          environment:
-            SSH_TARGET: "localhost"
-            TEST_ENV: "linux"
-          command: |
-            set -xu
-            mkdir -p ${TEST_REPORTS}
-      - run: |
-          set -xu
-          mkdir -p /tmp/artifacts
       - store_artifacts:
-          path: /tmp/artifacts
-          destination: build
+          path: eram-cm/build/reports
+          destination: reports
       - store_test_results:
-          path: /tmp/eram-common-test-results
+          path: eram-cm/build/test-results
