@@ -76,6 +76,9 @@ public class ApplicationTest {
             Assert.assertEquals(task, list.remove(0));
 
         }*/
+       System.out.println(list+" -- "+ app.getTasks());
+
+       Assert.assertEquals(list.toString(),app.getTasks().toString());
 
        Assert.assertArrayEquals(list.toArray(), app.getTasks().toArray());
 
