@@ -18,6 +18,8 @@ package org.eram.core.graph;
 
 import com.google.common.graph.MutableGraph;
 import org.eram.core.app.Task;
+
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
@@ -53,7 +55,10 @@ public class TaskNoter implements Noter {
                 mNotes.put(t, 1);
             }else{
                 noteTask  = 0;
-                Set<Task> preds = app.predecessors(t);
+                List<Task> preds = new LinkedList<>();
+                preds.addAll( app.predecessors(t));
+                Collections.sort(preds);
+
                 for(Task g: preds){
                     noteTask  = noteTask  > mNotes.get(g)+1 ? noteTask : mNotes.get(g)+1;
                 }
